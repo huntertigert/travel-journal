@@ -1,6 +1,7 @@
 # Travel Journal 🌍
 
 A React project that dynamically renders a travel journal from a data set, built as part of the Scrimba Frontend Developer Career Path.
+View on vercel: https://travel-journal-virid-gamma.vercel.app/
 
 ## About
 
