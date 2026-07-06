@@ -1,19 +1,60 @@
-# Getting Started
-Install the dependencies and run the project
+# Travel Journal 🌍
+
+A React project that dynamically renders a travel journal from a data set, built as part of the Scrimba Frontend Developer Career Path.
+
+## About
+
+This app takes a list of travel destinations (stored in `data.js`) and dynamically generates journal entries for each one — including a location image, place name, and travel notes — using reusable React components.
+
+## Tech Stack
+
+- **React** – component-based UI
+- **Vite** – fast dev server and build tool
+- **JavaScript (ES6+)**
+- **CSS**
+
+## Project Structure
+
 ```
+travel-journal/
+├── components/     # React components used to render each journal entry
+├── images/         # Destination images used in the journal
+├── App.jsx         # Root component
+├── data.js         # Travel destination data
+├── index.html      # HTML entry point
+├── index.jsx       # React app entry point
+├── index.css       # Global styles
+└── vite.config.js  # Vite configuration
+```
+
+## Getting Started
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/huntertigert/travel-journal.git
+cd travel-journal
 npm install
-npm start
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Run the development server:
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+```bash
+npm run dev
+```
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+Then open the local URL Vite prints in your terminal (usually `http://localhost:5173`) in your browser.
 
-Happy Coding!
+## Features
+
+- Dynamically renders journal entries from a central data source
+- Reusable, component-based structure
+- Responsive layout for viewing entries on different screen sizes
+
+## Acknowledgements
+
+This project was built as part of [Scrimba's](https://scrimba.com/) Frontend Developer Career Path.
+
+## License
+
+This project is for educational purposes as part of the Scrimba curriculum.
